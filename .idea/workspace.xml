@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4e239fb-2680-43b4-a51b-48bcaf7ed698" name="Default Changelist" comment="created logger wrapper with logrus" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1utC9K3tLwclShy1rf7H4GQvBw4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.log_test.go">
+    <configuration name="TestAppLoggerDebug in github.com/sandiptorane/logger (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="logger" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/sandiptorane/logger" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAppLoggerDebug\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAppLoggerInfo in github.com/sandiptorane/logger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="logger" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/sandiptorane/logger" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAppLoggerInfo\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAppLoggerTrace in github.com/sandiptorane/logger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="logger" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/sandiptorane/logger" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAppLoggerTrace\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestReqTrace in github.com/sandiptorane/logger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="logger" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/sandiptorane/logger" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestReqTrace\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="log_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="logger" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="logger" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/log_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.log_test.go" />
+        <item itemvalue="Go Test.TestAppLoggerInfo in github.com/sandiptorane/logger" />
+        <item itemvalue="Go Test.TestReqTrace in github.com/sandiptorane/logger" />
+        <item itemvalue="Go Test.TestAppLoggerTrace in github.com/sandiptorane/logger" />
+        <item itemvalue="Go Test.TestAppLoggerDebug in github.com/sandiptorane/logger (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created logger wrapper with logrus" />
+    <option name="LAST_COMMIT_MESSAGE" value="created logger wrapper with logrus" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="632" y="285" key="#Go_Modules" timestamp="1625477043791">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state x="632" y="285" key="#Go_Modules/65.24.1535.876@65.24.1535.876" timestamp="1625477043791" />
+    <state x="389" y="24" key="CommitChangelistDialog2" timestamp="1625486111757">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state x="389" y="24" key="CommitChangelistDialog2/65.24.1535.876@65.24.1535.876" timestamp="1625486111757" />
+    <state x="219" y="93" key="DiffContextDialog" timestamp="1625486107747">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state x="219" y="93" key="DiffContextDialog/65.24.1535.876@65.24.1535.876" timestamp="1625486107747" />
+    <state width="1489" height="237" key="GridCell.Tab.0.bottom" timestamp="1625486561968">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1489" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
+    <state width="1489" height="237" key="GridCell.Tab.0.center" timestamp="1625486561968">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1489" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
+    <state width="1489" height="237" key="GridCell.Tab.0.left" timestamp="1625486561967">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1489" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1625486561967" />
+    <state width="1489" height="237" key="GridCell.Tab.0.right" timestamp="1625486561968">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state width="1489" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2" timestamp="1625486839253">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2/65.24.1535.876@65.24.1535.876" timestamp="1625486839253" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerInfo in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484435244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerDebug_in_github_com_sandiptorane_logger__1_.out" NAME="TestAppLoggerDebug in github.com/sandiptorane/logger (1) Coverage Results" MODIFIED="1625484057144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_logger.out" NAME="TestAppLoggerInfo in logger Coverage Results" MODIFIED="1625479188704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerDebug_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerDebug in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625483784758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestReqTrace_in_github_com_sandiptorane_logger.out" NAME="TestReqTrace in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484109966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_logger__1_.out" NAME="TestAppLoggerInfo in logger (1) Coverage Results" MODIFIED="1625479374449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_github_com_sandiptorane_logger__1_.out" NAME="TestAppLoggerInfo in github.com/sandiptorane/logger (1) Coverage Results" MODIFIED="1625484046956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerTrace_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerTrace in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484096989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$log_test_go.out" NAME="log_test.go Coverage Results" MODIFIED="1625485113535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
