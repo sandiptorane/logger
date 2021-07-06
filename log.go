@@ -5,17 +5,24 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+type Log interface {
+	Info(tag string, message ...interface{})
+	Debug(tag string, message ...interface{})
+	Trace(tag string, message ...interface{})
+	Warn(tag string, message ...interface{})
+	Error(tag string, message ...interface{})
+	Fatal(tag string, message ...interface{})
+	Panic(tag string, message ...interface{})
+}
+
+//AppLogger is store the required configs to call methods
 type AppLogger struct {
 	logging *logrus.Logger
 	reqId   string
 	userId  *string
 }
 
-type ReqLogger struct {
-	logging *logrus.Logger
-	reqId   string
-}
-
+//NewDefaultLogger create new instance of logger
 func NewDefaultLogger(userId *string) *AppLogger {
 	return &AppLogger{
 		logging: logrus.New(),
@@ -24,6 +31,7 @@ func NewDefaultLogger(userId *string) *AppLogger {
 	}
 }
 
+//set user id
 func (logger *AppLogger) SetUserId(userId string) {
 	logger.userId = &userId
 }
@@ -34,6 +42,70 @@ func NewDefaultWithNewReqId(reqId string, userId *string) *AppLogger {
 		reqId:   reqId,
 		userId:  userId,
 	}
+}
+
+func getAppFields(reqId, tag string, userId *string) map[string]interface{} {
+	logrusFields := map[string]interface{}{
+		"request_id": reqId,
+		"tag":        tag,
+		"actor_id":   userId,
+	}
+	return logrusFields
+}
+
+/////////AppLogger Methods/////
+//Info prints info level log
+func (l *AppLogger) Info(tag string, message ...interface{}) {
+	l.logging.SetFormatter(&logrus.JSONFormatter{})
+	k := getAppFields(l.reqId, tag, l.userId)
+	l.logging.WithFields(k).Info(message...)
+}
+
+//Debug prints debug level logs
+func (l *AppLogger) Debug(tag string, message ...interface{}) {
+	l.logging.SetFormatter(&logrus.JSONFormatter{})
+	k := getAppFields(l.reqId, tag, l.userId)
+	l.logging.WithFields(k).Debug(message...)
+}
+
+//Trace prints trace level log
+func (l *AppLogger) Trace(tag string, message ...interface{}) {
+	l.logging.SetFormatter(&logrus.JSONFormatter{})
+	k := getAppFields(l.reqId, tag, l.userId)
+	l.logging.WithFields(k).Trace(message...)
+}
+
+//Warn prints warning level log
+func (l *AppLogger) Warn(tag string, message ...interface{}) {
+	l.logging.SetFormatter(&logrus.JSONFormatter{})
+	k := getAppFields(l.reqId, tag, l.userId)
+	l.logging.WithFields(k).Warn(message...)
+}
+
+//Error prints error level log
+func (l *AppLogger) Error(tag string, message ...interface{}) {
+	l.logging.SetFormatter(&logrus.JSONFormatter{})
+	k := getAppFields(l.reqId, tag, l.userId)
+	l.logging.WithFields(k).Error(message...)
+}
+
+//Fatal prints Fatal logs
+func (l *AppLogger) Fatal(tag string, message ...interface{}) {
+	l.logging.SetFormatter(&logrus.JSONFormatter{})
+	k := getAppFields(l.reqId, tag, l.userId)
+	l.logging.WithFields(k).Fatal(message...)
+}
+
+//Panic prints Panic level log
+func (l *AppLogger) Panic(tag string, message ...interface{}) {
+	l.logging.SetFormatter(&logrus.JSONFormatter{})
+	k := getAppFields(l.reqId, tag, l.userId)
+	l.logging.WithFields(k).Panic(message...)
+}
+
+type ReqLogger struct {
+	logging *logrus.Logger
+	reqId   string
 }
 
 func NewRequestLogger() *ReqLogger {
@@ -67,18 +139,6 @@ func getReqFields(reqId string, input map[string]interface{}) map[string]interfa
 	return logrusFields
 }
 
-func getAppFields(reqId, tag string, userId *string) map[string]interface{} {
-	logrusFields := map[string]interface{}{
-		"request_id": reqId,
-		"tag":        tag,
-		"actor_id":   userId,
-	}
-	return logrusFields
-}
-
-func (l *ReqLogger) Infof() {
-	l.logging.Info("haha")
-}
 func (l *ReqLogger) Info(input map[string]interface{}) {
 	l.logging.SetFormatter(&logrus.JSONFormatter{})
 	k := getReqFields(l.reqId, input)
@@ -120,48 +180,4 @@ func (l *ReqLogger) Panic(input map[string]interface{}) {
 	l.logging.SetFormatter(&logrus.JSONFormatter{})
 	k := getReqFields(l.reqId, input)
 	l.logging.WithFields(k).Panic(input["message"])
-}
-
-/////////AppLogger Methods/////
-
-func (l *AppLogger) Info(tag string, message ...interface{}) {
-	l.logging.SetFormatter(&logrus.JSONFormatter{})
-	k := getAppFields(l.reqId, tag, l.userId)
-	l.logging.WithFields(k).Info(message...)
-}
-
-func (l *AppLogger) Debug(tag string, message ...interface{}) {
-	l.logging.SetFormatter(&logrus.JSONFormatter{})
-	k := getAppFields(l.reqId, tag, l.userId)
-	l.logging.WithFields(k).Debug(message...)
-}
-
-func (l *AppLogger) Trace(tag string, message ...interface{}) {
-	l.logging.SetFormatter(&logrus.JSONFormatter{})
-	k := getAppFields(l.reqId, tag, l.userId)
-	l.logging.WithFields(k).Trace(message...)
-}
-
-func (l *AppLogger) Warn(tag string, message ...interface{}) {
-	l.logging.SetFormatter(&logrus.JSONFormatter{})
-	k := getAppFields(l.reqId, tag, l.userId)
-	l.logging.WithFields(k).Warn(message...)
-}
-
-func (l *AppLogger) Error(tag string, message ...interface{}) {
-	l.logging.SetFormatter(&logrus.JSONFormatter{})
-	k := getAppFields(l.reqId, tag, l.userId)
-	l.logging.WithFields(k).Error(message...)
-}
-
-func (l *AppLogger) Fatal(tag string, message ...interface{}) {
-	l.logging.SetFormatter(&logrus.JSONFormatter{})
-	k := getAppFields(l.reqId, tag, l.userId)
-	l.logging.WithFields(k).Fatal(message...)
-}
-
-func (l *AppLogger) Panic(tag string, message ...interface{}) {
-	l.logging.SetFormatter(&logrus.JSONFormatter{})
-	k := getAppFields(l.reqId, tag, l.userId)
-	l.logging.WithFields(k).Panic(message...)
 }

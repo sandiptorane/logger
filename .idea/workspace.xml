@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4e239fb-2680-43b4-a51b-48bcaf7ed698" name="Default Changelist" comment="created logger wrapper with logrus" />
+    <list default="true" id="c4e239fb-2680-43b4-a51b-48bcaf7ed698" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/log.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,11 +16,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1utC9K3tLwclShy1rf7H4GQvBw4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -24,7 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../erp_accounts_new" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,6 +109,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created logger wrapper with logrus" />
     <option name="LAST_COMMIT_MESSAGE" value="created logger wrapper with logrus" />
   </component>
@@ -112,14 +121,18 @@
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="632" y="285" key="#Go_Modules/65.24.1535.876@65.24.1535.876" timestamp="1625477043791" />
-    <state x="389" y="24" key="CommitChangelistDialog2" timestamp="1625486111757">
+    <state x="389" y="24" key="CommitChangelistDialog2" timestamp="1625486965427">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="389" y="24" key="CommitChangelistDialog2/65.24.1535.876@65.24.1535.876" timestamp="1625486111757" />
-    <state x="219" y="93" key="DiffContextDialog" timestamp="1625486107747">
+    <state x="389" y="24" key="CommitChangelistDialog2/65.24.1535.876@65.24.1535.876" timestamp="1625486965427" />
+    <state x="219" y="93" key="DiffContextDialog" timestamp="1625486958842">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="219" y="93" key="DiffContextDialog/65.24.1535.876@65.24.1535.876" timestamp="1625486107747" />
+    <state x="219" y="93" key="DiffContextDialog/65.24.1535.876@65.24.1535.876" timestamp="1625486958842" />
+    <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl" timestamp="1625551268160">
+      <screen x="65" y="24" width="1535" height="876" />
+    </state>
+    <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl/65.24.1535.876@65.24.1535.876" timestamp="1625551268160" />
     <state width="1489" height="237" key="GridCell.Tab.0.bottom" timestamp="1625486561968">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
@@ -136,10 +149,10 @@
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1489" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
-    <state x="432" y="185" key="Vcs.Push.Dialog.v2" timestamp="1625486839253">
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2" timestamp="1625487029038">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="432" y="185" key="Vcs.Push.Dialog.v2/65.24.1535.876@65.24.1535.876" timestamp="1625486839253" />
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2/65.24.1535.876@65.24.1535.876" timestamp="1625487029038" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerInfo in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484435244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
