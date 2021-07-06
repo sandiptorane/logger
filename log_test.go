@@ -80,18 +80,6 @@ func TestNewRequestLoggerWithNewReqId(t *testing.T) {
 	assert.Equal(t, testLogger.reqId, "1237-12321-543252-2423-123")
 }
 
-func TestLog(t *testing.T) {
-	loggy := NewRequestLogger()
-	var buf bytes.Buffer
-	loggy.logging.SetOutput(&buf)
-	defer func() {
-		loggy.logging.SetOutput(os.Stderr)
-	}()
-	loggy.Infof()
-	t.Log(buf.String())
-	assert.Equal(t, len(buf.String()), len("time=\"2021-02-26T02:42:51+05:30\" level=info msg=haha\n"))
-}
-
 func TestgetReqFields(t *testing.T) {
 	input := map[string]interface{}{
 		"tag":                 "tag_value",

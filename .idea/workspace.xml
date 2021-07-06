@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4e239fb-2680-43b4-a51b-48bcaf7ed698" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.log_test.go">
-    <configuration name="TestAppLoggerDebug in github.com/sandiptorane/logger (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestAppLoggerInfo in github.com/sandiptorane/logger (1)">
+    <configuration name="TestAppLoggerInfo in github.com/sandiptorane/logger (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="logger" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -46,7 +46,7 @@
       <package value="github.com/sandiptorane/logger" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestAppLoggerDebug\E$" />
+      <pattern value="^\QTestAppLoggerInfo\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestAppLoggerInfo in github.com/sandiptorane/logger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestAppLoggerInfo in github.com/sandiptorane/logger (1)" />
         <item itemvalue="Go Test.log_test.go" />
         <item itemvalue="Go Test.TestAppLoggerInfo in github.com/sandiptorane/logger" />
         <item itemvalue="Go Test.TestReqTrace in github.com/sandiptorane/logger" />
         <item itemvalue="Go Test.TestAppLoggerTrace in github.com/sandiptorane/logger" />
-        <item itemvalue="Go Test.TestAppLoggerDebug in github.com/sandiptorane/logger (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +111,8 @@
     <MESSAGE value="created logger wrapper with logrus" />
     <MESSAGE value="added function in interface, updated  readme.md" />
     <MESSAGE value="updated  readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated  readme.md" />
+    <MESSAGE value="updated  readme.md for code snippet" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated  readme.md for code snippet" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -121,38 +122,38 @@
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="632" y="285" key="#Go_Modules/65.24.1535.876@65.24.1535.876" timestamp="1625477043791" />
-    <state x="389" y="24" key="CommitChangelistDialog2" timestamp="1625557052291">
+    <state x="389" y="24" key="CommitChangelistDialog2" timestamp="1625557981172">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="389" y="24" key="CommitChangelistDialog2/65.24.1535.876@65.24.1535.876" timestamp="1625557052291" />
-    <state x="219" y="93" key="DiffContextDialog" timestamp="1625556689410">
+    <state x="389" y="24" key="CommitChangelistDialog2/65.24.1535.876@65.24.1535.876" timestamp="1625557981172" />
+    <state x="219" y="93" key="DiffContextDialog" timestamp="1625557976238">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="219" y="93" key="DiffContextDialog/65.24.1535.876@65.24.1535.876" timestamp="1625556689410" />
+    <state x="219" y="93" key="DiffContextDialog/65.24.1535.876@65.24.1535.876" timestamp="1625557976238" />
     <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl" timestamp="1625557426956">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl/65.24.1535.876@65.24.1535.876" timestamp="1625557426956" />
-    <state width="1489" height="237" key="GridCell.Tab.0.bottom" timestamp="1625486561968">
+    <state width="1489" height="237" key="GridCell.Tab.0.bottom" timestamp="1625558649826">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1489" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
-    <state width="1489" height="237" key="GridCell.Tab.0.center" timestamp="1625486561968">
+    <state width="1489" height="237" key="GridCell.Tab.0.bottom/65.24.1535.876@65.24.1535.876" timestamp="1625558649826" />
+    <state width="1489" height="237" key="GridCell.Tab.0.center" timestamp="1625558649825">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1489" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
-    <state width="1489" height="237" key="GridCell.Tab.0.left" timestamp="1625486561967">
+    <state width="1489" height="237" key="GridCell.Tab.0.center/65.24.1535.876@65.24.1535.876" timestamp="1625558649825" />
+    <state width="1489" height="237" key="GridCell.Tab.0.left" timestamp="1625558649824">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1489" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1625486561967" />
-    <state width="1489" height="237" key="GridCell.Tab.0.right" timestamp="1625486561968">
+    <state width="1489" height="237" key="GridCell.Tab.0.left/65.24.1535.876@65.24.1535.876" timestamp="1625558649824" />
+    <state width="1489" height="237" key="GridCell.Tab.0.right" timestamp="1625558649825">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state width="1489" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
-    <state x="432" y="185" key="Vcs.Push.Dialog.v2" timestamp="1625557055904">
+    <state width="1489" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1625558649825" />
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2" timestamp="1625558004385">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="432" y="185" key="Vcs.Push.Dialog.v2/65.24.1535.876@65.24.1535.876" timestamp="1625557055904" />
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2/65.24.1535.876@65.24.1535.876" timestamp="1625558004385" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerInfo in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484435244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -161,8 +162,8 @@
     <SUITE FILE_PATH="coverage/logger$TestAppLoggerDebug_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerDebug in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625483784758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logger$TestReqTrace_in_github_com_sandiptorane_logger.out" NAME="TestReqTrace in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484109966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_logger__1_.out" NAME="TestAppLoggerInfo in logger (1) Coverage Results" MODIFIED="1625479374449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_github_com_sandiptorane_logger__1_.out" NAME="TestAppLoggerInfo in github.com/sandiptorane/logger (1) Coverage Results" MODIFIED="1625484046956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_github_com_sandiptorane_logger__1_.out" NAME="TestAppLoggerInfo in github.com/sandiptorane/logger (1) Coverage Results" MODIFIED="1625558649714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/logger$TestAppLoggerTrace_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerTrace in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484096989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/logger$log_test_go.out" NAME="log_test.go Coverage Results" MODIFIED="1625485113535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/logger$log_test_go.out" NAME="log_test.go Coverage Results" MODIFIED="1625558561091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
