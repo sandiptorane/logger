@@ -30,7 +30,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../erp_accounts_new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resty" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -121,18 +121,18 @@
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="632" y="285" key="#Go_Modules/65.24.1535.876@65.24.1535.876" timestamp="1625477043791" />
-    <state x="389" y="24" key="CommitChangelistDialog2" timestamp="1625556928457">
+    <state x="389" y="24" key="CommitChangelistDialog2" timestamp="1625557052291">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="389" y="24" key="CommitChangelistDialog2/65.24.1535.876@65.24.1535.876" timestamp="1625556928457" />
+    <state x="389" y="24" key="CommitChangelistDialog2/65.24.1535.876@65.24.1535.876" timestamp="1625557052291" />
     <state x="219" y="93" key="DiffContextDialog" timestamp="1625556689410">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state x="219" y="93" key="DiffContextDialog/65.24.1535.876@65.24.1535.876" timestamp="1625556689410" />
-    <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl" timestamp="1625551268160">
+    <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl" timestamp="1625557426956">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl/65.24.1535.876@65.24.1535.876" timestamp="1625551268160" />
+    <state x="619" y="207" width="424" height="482" key="FileChooserDialogImpl/65.24.1535.876@65.24.1535.876" timestamp="1625557426956" />
     <state width="1489" height="237" key="GridCell.Tab.0.bottom" timestamp="1625486561968">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
@@ -149,10 +149,10 @@
       <screen x="65" y="24" width="1535" height="876" />
     </state>
     <state width="1489" height="237" key="GridCell.Tab.0.right/65.24.1535.876@65.24.1535.876" timestamp="1625486561968" />
-    <state x="432" y="185" key="Vcs.Push.Dialog.v2" timestamp="1625556932355">
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2" timestamp="1625557055904">
       <screen x="65" y="24" width="1535" height="876" />
     </state>
-    <state x="432" y="185" key="Vcs.Push.Dialog.v2/65.24.1535.876@65.24.1535.876" timestamp="1625556932355" />
+    <state x="432" y="185" key="Vcs.Push.Dialog.v2/65.24.1535.876@65.24.1535.876" timestamp="1625557055904" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/logger$TestAppLoggerInfo_in_github_com_sandiptorane_logger.out" NAME="TestAppLoggerInfo in github.com/sandiptorane/logger Coverage Results" MODIFIED="1625484435244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
